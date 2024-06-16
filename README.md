@@ -1,10 +1,7 @@
-
-
-
-    <div class="image-container">
-        <img src="https://i.pinimg.com/originals/0b/5c/c0/0b5cc024841accd9a31a7b2daeb0e57b.gif" alt="Pac-Man Image">
-        <div class="pacman-border"></div>
-    </div>
+###
+<div align="center">
+  <img height="200" src="https://i.pinimg.com/originals/0b/5c/c0/0b5cc024841accd9a31a7b2daeb0e57b.gif"  />
+</div>
 ###
 
 <div align="center">
