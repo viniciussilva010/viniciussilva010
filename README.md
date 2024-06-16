@@ -1,11 +1,52 @@
 
 
 ###
+    <style>
+        .image-container {
+            position: relative;
+            overflow: hidden;
+        }
 
-<div align="center">
-  <img height="200" src="https://i.pinimg.com/originals/0b/5c/c0/0b5cc024841accd9a31a7b2daeb0e57b.gif"  />
-</div>
+        .image-container img {
+            width: 100%;
+            height: auto;
+        }
 
+        .pacman-border {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 5px solid transparent;
+            border-image: url('https://i.imgur.com/9Q4wK8Y.png') 30 round;
+            animation: pacManBorder 5s linear infinite;
+        }
+
+        @keyframes pacManBorder {
+            0% {
+                transform: rotate(0deg);
+            }
+            25% {
+                transform: rotate(90deg);
+            }
+            50% {
+                transform: rotate(180deg);
+            }
+            75% {
+                transform: rotate(270deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="https://i.pinimg.com/originals/0b/5c/c0/0b5cc024841accd9a31a7b2daeb0e57b.gif" alt="Pac-Man Image">
+        <div class="pacman-border"></div>
+    </div>
 ###
 
 <div align="center">
