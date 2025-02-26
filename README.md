@@ -1,5 +1,4 @@
 ###
-<div align="center" style="background-image: url('https://i.pinimg.com/736x/cb/61/68/cb616810386ef5ae46ce349d7b75fa04.jpg'); background-size: cover; background-repeat: no-repeat; min-height: 100vh; padding: 20px;">
 <div align="center">
   <p align="center">
     <img src="https://i.pinimg.com/originals/5e/63/9b/5e639b1575f82ade15ebbf0896d8f45c.gif" width="300">
